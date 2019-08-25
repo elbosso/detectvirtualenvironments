@@ -42,7 +42,7 @@ fi
 
 if [ ! -z "$container" ]
 then
-        echo $container
+        echo "$container "
         exit 0
 else
         exit 1
