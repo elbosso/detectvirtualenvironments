@@ -7,7 +7,7 @@ SCRIPTPATH=$(dirname $SCRIPT)
 
 if [ ! -d "$HOME/.local/bin" ] ; then
     echo "creating $HOME/.local/bin"
-    mkdir -p "$HOME/.local/bin:$PATH"
+    mkdir -p "$HOME/.local/bin"
 fi
 
 if [ -d "$HOME/.local/bin" ] ; then
