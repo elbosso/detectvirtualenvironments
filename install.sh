@@ -22,7 +22,7 @@ if [ -f "$HOME/.bashrc" ] ; then
     if [ "$?" -ne 0 ] ; then
         echo "creating backup  of .bashrc"
         cp -a "$HOME/.bashrc" "$HOME/.bashrc_$(date)"
-        sed -i -E 's;(PS1.*?)(\\u@\\h.*?);\1[$(/bin/bash $HOME/.local/bin/detectcontainer.sh)]\2;g' "$HOME/.bashrc"        
-        sed -i -E 's;(PROMPT_COMMAND.*?)(\$\{USER\}@\$\{HOSTNAME\}.*?);\1[$(/bin/bash $HOME/.local/bin/detectcontainer.sh)]\2;g' "$HOME/.bashrc"
+        sed -i -E 's;(PS1.*?)(\\u@\\h.*?);\1$(/bin/bash $HOME/.local/bin/detectcontainer.sh)\2;g' "$HOME/.bashrc"        
+        sed -i -E 's;(PROMPT_COMMAND.*?)(\$\{USER\}@\$\{HOSTNAME\}.*?);\1$(/bin/bash $HOME/.local/bin/detectcontainer.sh)\2;g' "$HOME/.bashrc"
     fi
 fi
