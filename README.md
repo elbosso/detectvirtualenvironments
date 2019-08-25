@@ -5,6 +5,7 @@
 --->
 [![GitHub release](https://img.shields.io/github/release/elbosso/detectvirtualenvironments/all.svg?maxAge=1)](https://GitHub.com/elbosso/detectvirtualenvironments/releases/)
 [![GitHub tag](https://img.shields.io/github/tag/elbosso/detectvirtualenvironments.svg)](https://GitHub.com/elbosso/detectvirtualenvironments/tags/)
+[![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](https://www.gnu.org/software/bash/)
 [![GitHub license](https://img.shields.io/github/license/elbosso/detectvirtualenvironments.svg)](https://github.com/elbosso/detectvirtualenvironments/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/elbosso/detectvirtualenvironments.svg)](https://GitHub.com/elbosso/detectvirtualenvironments/issues/)
 [![GitHub issues-closed](https://img.shields.io/github/issues-closed/elbosso/detectvirtualenvironments.svg)](https://GitHub.com/elbosso/detectvirtualenvironments/issues?q=is%3Aissue+is%3Aclosed)
